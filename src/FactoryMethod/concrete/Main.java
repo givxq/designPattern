@@ -11,9 +11,10 @@ public class Main {
 
         creator = new HpCreator();
         item = creator.create();
+        item.use();
 
         creator = new MpCreator();
         item = creator.create();
-
+        item.use();
     }
 }
